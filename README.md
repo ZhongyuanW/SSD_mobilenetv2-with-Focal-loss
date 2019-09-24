@@ -13,3 +13,4 @@ ssd-vgg16(paper):77.20%
 ssd-mobielentv1: 72.7%(with COCO pretraining), 68.%(without COCO pretaining)  https://github.com/chuanqi305/MobileNet-SSD
 
 pretrained model and trained model: 
+链接: https://pan.baidu.com/s/1RmOPF4jQYpYlE_8E4DifeQ 提取码: f53n 
