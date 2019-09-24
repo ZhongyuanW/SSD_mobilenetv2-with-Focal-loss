@@ -1,6 +1,6 @@
 # SSD_mobilenetv2-with-Focal-loss
 
- this project is focked from https://github.com/amdegroot/ssd.pytorch.
+ this repo is forked from https://github.com/amdegroot/ssd.pytorch.
 
 add functions:
 1. implement mobielentv2 for ssd.
