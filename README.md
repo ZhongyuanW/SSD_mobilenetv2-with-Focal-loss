@@ -10,8 +10,8 @@ add functions:
 
 result(train on voc 2007trainval + 2012, test on voc 2007test):
 1. ssd-mobielnetv2 (this repo): 70.27%. (without focal loss).
-2. ssd-vgg16 (paper):77.20%. 
-3. ssd-mobielentv1: 72.7% (with COCO pretraining), 68.% (without COCO pretaining)  https://github.com/chuanqi305/MobileNet-SSD.
+2. ssd-mobielentv1: 68.% (without COCO pretaining), 72.7% (with COCO pretraining)   https://github.com/chuanqi305/MobileNet-SSD.
+3. ssd-vgg16 (paper): 77.20%. 
 
 pretrained model and trained model: 
 1. 百度网盘: https://pan.baidu.com/s/1RmOPF4jQYpYlE_8E4DifeQ 提取码: f53n 
