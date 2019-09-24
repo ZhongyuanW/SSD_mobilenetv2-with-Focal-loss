@@ -14,4 +14,5 @@ result(train on voc 2007trainval + 2012, test on voc 2007test):
 3. ssd-mobielentv1: 72.7% (with COCO pretraining), 68.% (without COCO pretaining)  https://github.com/chuanqi305/MobileNet-SSD.
 
 pretrained model and trained model: 
-百度网盘: https://pan.baidu.com/s/1RmOPF4jQYpYlE_8E4DifeQ 提取码: f53n 
+1. 百度网盘: https://pan.baidu.com/s/1RmOPF4jQYpYlE_8E4DifeQ 提取码: f53n 
+2. Google drive: https://drive.google.com/drive/folders/1JoDYukyWZZ-iWVWPhUDD998cSPB3LeUw?usp=sharing
