@@ -2,7 +2,7 @@
 
  this repo is forked from https://github.com/amdegroot/ssd.pytorch. Implemented by pytorch.
 
-add functions:
+Contributions:
 1. implement mobielentv2 for ssd.
 2. add focal loss. (need adjuct super-parameters).
 3. add detection.py demo for image and video detection.
