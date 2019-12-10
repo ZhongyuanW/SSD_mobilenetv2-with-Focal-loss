@@ -7,7 +7,7 @@ from data import coco as cfg
 from ..box_utils import match, log_sum_exp
 import focal_loss
 import numpy as np
-import data.config as cfg
+from data.config import USE_FL
 
 class MultiBoxLoss(nn.Module):
     """SSD Weighted Loss Function
@@ -127,7 +127,7 @@ class MultiBoxLoss(nn.Module):
         conf_p = conf_data[(pos_idx+neg_idx).gt(0)].view(-1, self.num_classes)
         targets_weighted = conf_t[(pos+neg).gt(0)]
 
-        if cfg.USE_FL:
+        if USE_FL:
             alpha = np.array([[0.25], [0.75], [0.75], [0.75], [0.75],
                               [0.75], [0.75], [0.75], [0.75], [0.75],
                               [0.75], [0.75], [0.75], [0.75], [0.75],
