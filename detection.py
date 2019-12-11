@@ -75,8 +75,8 @@ def detection_image(path,weight):
 
             pt[0] = max(pt[0], 0)
             pt[1] = max(pt[1], 0)
-            pt[2] = min(pt[2], rgb_image.shape[0])
-            pt[3] = min(pt[3], rgb_image.shape[1])
+            pt[2] = min(pt[2], rgb_image.shape[1])
+            pt[3] = min(pt[3], rgb_image.shape[0])
 
             color = colors[idx_obj%(len(colors))]
 
@@ -181,8 +181,8 @@ def detection_video(path,weight):
                 # TODO revise solutions
                 pt[0] = max(pt[0],0)
                 pt[1] = max(pt[1],0)
-                pt[2] = min(pt[2],size[0])
-                pt[3] = min(pt[3],size[1])
+                pt[2] = min(pt[2],size[1])
+                pt[3] = min(pt[3],size[0])
 
 
                 color = colors[idx_obj%len(colors)]
